@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.main {
+  position: relative;
+  font-family: sans-serif;
+  background-image: url(image/background12.jpeg); 
+  background-size: cover;
+  height: 700px;
+}
+#navbar,
+.logo {
+  width: 90px;
+  cursor: pointer;
+  margin-right: 20%;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  backdrop-filter: blur(35px);
+  box-shadow: 0px 0px 30px rgba(227.228.237.0.37);
+}
+nav,
+.links {
+  display: flex;
+}
+.links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.2rem;
+  margin-right: 100px;
+}
+.links a {
+  color: whitesmoke;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.links a:hover {
+  color: aqua;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+
+/* -------------------------------WEB DEVELOPER-------------------------------------------------------- */
+.developers_information {
+  padding-top: 80px;
+  margin-left: 7%;
+  margin-top: 4.5%;
+  padding-bottom: 220px;
+}
+.developers_information span{
+  /* color: aqua; */
+}
+.developers_information h1 {
+  /* color: aqua; */
+  font-size: 70px;
+  color: white;
+  width: 800px;
+  /* text-decoration: underline 1px aqua; */
+  text-underline-offset: 1rem;
+}
+.developers_information h2 {
+  font-size: 23px;
+  color: white;
+  width: 800px;
+  padding-left: 3px;
+  padding-top: 1px;
+}
+/* ----------------------------HIRE ME BUTTON---------------------------------------- */
+.developers_information a {
+  text-decoration: none;
+  color: aqua;
+  background-color: black;
+  margin: 26px 0;
+  padding: 10px 18px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: 0.4s ease;
+  border-style: solid;
+  border-color:aqua;
+  border-width: 1px;
+}
+.developers_information a:hover {
+  color: #333;
+  background-color: #fff;
+  border-style: solid;
+  border-color:black;
+  border-width: 1px;
+}
+
+/* ----------------------------BODY SECTIONS------------------------------------------------------ */
+section {
+  height: 660px;
+  background-image: url(image/background12.jpeg);
+  background-size: cover;
+  padding-top: 50px;
+}
+/* -------------------------------about--------------------------------- */
+.about h5{
+  color: aqua;
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+.about h2{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  text-decoration: underline white 1px;
+  text-underline-offset: 1rem;
+}
+
+.about-container{
+  width: 620px;
+  height: 575px;
+}
+.about-container p{
+  color: white;
+  text-align: center;
+  margin: 77px 50px 100px 200px;
+  font-size: 20px;
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px;
+  border-style: solid;
+}
+
+.about_image_developer{
+border-style: solid;
+border-radius: 20px;
+color: white;
+width: 362px;
+height: 385px;
+top: 863px;
+position: absolute;
+right: 210px;
+background-image: url(image/background12.jpeg);
+background-size: 1700px;
+}
+.about_image_developer img{
+  position: absolute;
+  /* border-radius: 10% 40% 10% 40%; */
+  border-radius: 55px;
+  height: 70%;
+  width: 70%;
+  left: 15%;
+  top: 20px;
+}
+.about_image_developer a{
+  position: relative;
+  left: 10%;
+  padding-left: 30px;
+  top: 315px;
+  font-size: 36px;
+  color: white;
+}
+.about_image_developer a:hover{
+  color: aqua;
+}
+/* -------------------------------Projects--------------------------------- */
+.projects h5{
+  color: aqua;
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+.projects h2{
+  text-align: center;
+  color: white;
+  font-size: 50px;  
+  text-decoration: underline white 1px;
+  text-underline-offset: 1rem;
+}
+.projects_div1{
+  width: 400px;
+  height: 340px;
+  border-style: solid;
+  color: white;
+  text-align: center;
+  margin: 85px 50px 100px 150px;
+  font-size: 20px;
+  background-image: url(image/background12.jpeg);
+  background-size: 1900px;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px;
+}
+.projects_div1 h3{
+  font-size: 32px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.projects_div2{
+  width: 400px;
+  height: 340px;
+  border-style: solid;
+  color: white;
+  text-align: center;
+  margin: 85px 50px 100px 150px;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px;
+  position: absolute;
+  right: 100px;
+  top: 1497px;
+  background-image: url(image/background12.jpeg);
+  background-size: 1900px;
+}
+.projects_div2 h3{
+  font-size: 32px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+/* -------------------------------Experience-------------------------------- */
+.experience h5{
+  color: aqua;
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+.experience h2{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  text-decoration: underline white 1px;
+  text-underline-offset: 1rem;
+}
+.experience_working{
+  border-style: solid;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 60px 200px 0px 200px;
+  background-image: url(image/background12.jpeg);
+  background-size: 2000px;
+}
+.experience_working p{
+  font-size: 25px;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 7% 5% 7% 5%;
+}
+/* -----------------------Arrow---------------------------------- */
+
+.about #arrow-up{
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 20%;
+  font-size: 24px;
+  cursor: pointer;
+  left: 1170px;
+  bottom: 240px;
+  position: relative;
+}
+.about #arrow-up:hover{
+  color: aqua;
+}
+
+.projects #arrow-up{
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 20%;
+  font-size: 24px;
+  cursor: pointer;
+  left: 1170px;
+  bottom: 170px;
+  position: relative;
+}
+.projects #arrow-up:hover{
+  color: aqua;
+}
+
+.experience #arrow-up{
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 20%;
+  font-size: 24px;
+  cursor: pointer;
+  left: 1170px;
+  bottom: 100px;
+  position: relative;
+}
+.experience #arrow-up:hover {
+  color: aqua;
+}
+
+/* ---------------------------FOOTER------------------------------------------------------------------------- */
+
+#footer {
+  font-family: Arial, sans-serif;
+  background-image: url(image/background12.jpeg);
+  background-size: cover;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  left: 80px;
+}
+.footer-section h3{ 
+  font-size: 25px;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* text-decoration: underline 1.2px aqua;
+  text-underline-offset: 0.8rem; */
+}
+.footer-section li{
+  text-decoration: none;
+  color: aqua;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.footer-section li a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer-section li a:hover{
+  text-decoration: none;
+  text-decoration: underline 1.2px aqua;
+  text-underline-offset: 0.6rem;
+  color: aqua;
+}
+.footer-bottom{
+  backdrop-filter: blur(15px);
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
